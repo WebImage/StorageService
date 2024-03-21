@@ -1,0 +1,16 @@
+{
+    "name": "webimage/storage-service",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Webimage\\StorageService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robert Jones II",
+            "email": "rjones@corporatewebimage.com"
+        }
+    ],
+    "require": {}
+}
