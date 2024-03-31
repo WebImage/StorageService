@@ -1,9 +1,9 @@
 {
-    "name": "webimage/storage-service",
+    "name": "webimage/storage",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Webimage\\StorageService\\": "src/"
+            "WebImage\\Storage\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,10 @@
             "email": "rjones@corporatewebimage.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/psr7": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
 }

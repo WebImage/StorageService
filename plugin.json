@@ -1,0 +1,10 @@
+{
+  "id": "webimage/storage",
+  "name": "Storage Service",
+  "description": "Convenience classes for storing referenced file paths that might exist on disparate storage systems.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Robert Jones II",
+    "email": "rjones@corporatewebimage.com"
+  }
+}
